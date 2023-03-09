@@ -1,0 +1,111 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(9, 115, 207, 0.493);
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-section{
+    width: 300px;
+    height: 1526px;
+    background-color: blueviolet;
+    padding: 20px;
+    
+}
+.right-section {
+    height: 100%;
+}
+
+img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border: solid whitesmoke;
+    margin-left: 55px;
+    margin-top: 45px;
+
+}
+.profile{
+    margin-bottom: 50px;
+}
+.name{
+    color: antiquewhite;
+    font-size: Xtra-larger;
+    text-align: center;
+}
+.career{
+    color: antiquewhite;
+    font-size: larger;
+    text-align: center;
+}
+.right-section{
+    background-color: rgba(9, 115, 207, 0.493);
+    width: 100%;
+}
+.main-title{
+    color: beige;
+    font-size: large;
+}
+.contact-info{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+
+}
+.references{
+    color: beige;
+    font-size: large; 
+}
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: beige;
+}
+.menu-list{
+    margin-left: 25px;
+    font-size: 18px;
+    color: rgb(232, 239, 240);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.skills-section, .references {
+    margin: 20px;
+}
+.list{
+    color: rgb(15, 12, 12);
+}
+.qualifications {
+    width: 270px;
+    padding: 20px;
+}
+
+.edu, .extra {
+    padding: 20px;
+    width: 300px;
+}
+.qlf {
+    width: 150px;
+    position: sticky;
+    top: 20rem;
+
+}
+.qlf-1 {
+    margin-left: 150px;
+    width: 140px;
+}
+.extra {
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
